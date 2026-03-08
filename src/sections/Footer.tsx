@@ -1,4 +1,4 @@
-import { GraduationCap, Facebook, Instagram, Linkedin, Twitter, Heart } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Twitter} from 'lucide-react';
 
 const footerLinks = {
   servicios: [
@@ -126,9 +126,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm text-center md:text-left">
               © {new Date().getFullYear()} SOFT ASESORÍAS. Todos los derechos reservados.
             </p>
-            <p className="text-gray-400 text-sm flex items-center gap-1">
-              Hecho con <Heart className="w-4 h-4 text-red-500 fill-red-500" /> en Colombia
-            </p>
+            
           </div>
         </div>
       </div>
