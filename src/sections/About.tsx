@@ -70,7 +70,7 @@ const About = () => {
                     <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
                       <span className="text-green-600 font-bold text-sm">2023</span>
                     </div>
-                    <p className="text-gray-600 text-sm">+500 estudiantes ayudados exitosamente</p>
+                    <p className="text-gray-600 text-sm">+1000 estudiantes ayudados exitosamente</p>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
