@@ -106,11 +106,11 @@ const Hero = () => {
                 <div className="text-sm text-white/70">Estudiantes</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold text-white sm:text-4xl">4</div>
+                <div className="text-3xl font-bold text-white sm:text-4xl">5</div>
                 <div className="text-sm text-white/70">Servicios</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold text-white sm:text-4xl">3+</div>
+                <div className="text-3xl font-bold text-white sm:text-4xl">4+</div>
                 <div className="text-sm text-white/70">Años</div>
               </div>
             </div>
@@ -118,7 +118,7 @@ const Hero = () => {
 
           {/* Right Content - Image */}
           <div className="relative hidden lg:block">
-            <div className="relative">
+            <div className="relative px-10 py-10">
               {/* Main Image */}
               <div className="relative z-10 overflow-visible rounded-3xl">
                 <div className="overflow-hidden rounded-3xl border border-white/15 bg-white/5 shadow-2xl backdrop-blur-sm transition-transform duration-500 hover:scale-[1.02]">
@@ -130,21 +130,21 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Floating cards - ahora delante */}
-              <div className="absolute -left-6 -top-6 z-20 rounded-2xl bg-white p-4 shadow-xl animate-float">
+              {/* Floating cards más separadas del logo */}
+              <div className="absolute -left-14 -top-10 z-20 max-w-[220px] rounded-2xl bg-white p-4 shadow-xl animate-float">
                 <div className="flex items-center gap-3">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-green-400 to-teal-500">
                     <Zap className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <div className="font-bold text-gray-800">Multiples servicios</div>
+                    <div className="font-bold text-gray-800">Múltiples servicios</div>
                     <div className="text-sm text-gray-500">Máxima eficiencia</div>
                   </div>
                 </div>
               </div>
 
               <div
-                className="absolute -bottom-6 -right-6 z-20 rounded-2xl bg-white p-4 shadow-xl animate-float"
+                className="absolute -bottom-10 -right-14 z-20 max-w-[220px] rounded-2xl bg-white p-4 shadow-xl animate-float"
                 style={{ animationDelay: '1.5s' }}
               >
                 <div className="flex items-center gap-3">

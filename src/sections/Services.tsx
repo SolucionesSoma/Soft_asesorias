@@ -78,7 +78,7 @@ const services = [
     id: 5,
     title: 'Mantenimiento Industrial y Metalmecánica',
     description:
-      'Ofrecemos soluciones técnicas especializadas en mantenimiento industrial, reparación de estructuras metálicas, fabricación de piezas especiales, aplicación de recubrimientos, inspección visual y mantenimiento de válvulas y tuberías para diferentes tipos de proyectos.',
+      'Ofrecemos soluciones en mantenimiento industrial, reparación metálica, fabricación de piezas, recubrimientos, inspección y mantenimiento de válvulas y tuberías.',
     image: '/images/industrial.png',
     icon: Wrench,
     color: 'from-slate-500 to-cyan-600',

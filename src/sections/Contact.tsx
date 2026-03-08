@@ -38,6 +38,7 @@ const services = [
   { value: 'paneles', label: '☀️ Instalación de paneles solares' },
   { value: 'quioscos', label: '🌴 Construcción de quioscos de palma' },
   { value: 'software', label: '💻 Desarrollo de software y páginas web' },
+  { value: 'software', label: '🔧 Mantenimiento Industrial y Metalmecánica' },
   { value: 'multiple', label: '✨ Múltiples servicios' },
 ];
 
